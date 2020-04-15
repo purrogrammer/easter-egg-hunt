@@ -22,5 +22,12 @@ function startQuiz() {
 
 function nextQuestion() {
     resetState()
-    showQuestions(shuffledQuestions[currentQuestionIndex])
+    showQuestions(shuffledQuestions[questionIndex])
 }
+
+
+function selectAnswer() {
+    
+}
+
+
